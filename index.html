@@ -1,7 +1,9 @@
 <html>
     <head>
         <title>GitHub Test Repo</title> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script defer src="js/script.js"></script>
     </head>
     <body>
         <div id="content">    
@@ -9,9 +11,9 @@
             <p>Description</p>
             <img src="images/download (5).png" alt="Forest image">
         </div>    
-        <div class=page1></div>
-        <div class=page2></div>
-        <div class=page3></div>
-        <div class=page4></div>
+        <div onhover="changePage()" id="page1" class="page1"></div>
+        <div onhover="changePage()" id="page2" class="page2"></div>
+        <div onhover="changePage()" id="page3" class="page3"></div>
+        <div onhover="changePage()" id="page4" class="page4"></div>
     </body>   
 </html>
