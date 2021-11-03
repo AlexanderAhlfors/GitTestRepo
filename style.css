@@ -20,10 +20,10 @@ body {
     background: lightblue; 
 }
 
-.page1 {
+#page1 {
     position: absolute;
     top: 8px;
-    left: 510px;
+    left: 512.5px;
     width: 30%;
     height: 493px;
     background-color: white;
@@ -31,10 +31,10 @@ body {
     border: 1px solid black;
 }
 
-.page2 {
+#page2 {
     position: absolute;
     top: 8px;
-    left: 515px;
+    left: 520px;
     width: 30%;
     height: 493px;
     background-color: white;
@@ -42,10 +42,10 @@ body {
     border: 1px solid black;
 }
 
-.page3 {
+#page3 {
     position: absolute;
     top: 8px;
-    left: 520px;
+    left: 527.5px;
     width: 30%;
     height: 493px;
     background-color: white;
@@ -53,10 +53,10 @@ body {
     border: 1px solid black;
 }
 
-.page4 {
+#page4 {
     position: absolute;
     top: 8px;
-    left: 525px;
+    left: 535px;
     width: 30%;
     height: 493px;
     background-color: white;
